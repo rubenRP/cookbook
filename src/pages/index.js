@@ -1,11 +1,10 @@
 import React from "react"
 import { Link, graphql } from "gatsby"
 
-import Layout from "../components/layout"
-import SEO from "../components/seo"
-import { rhythm } from "../utils/typography"
+import Layout from "../components/Layout"
+import SEO from "../components/Seo"
 
-const BlogIndex = ({ data, location }) => {
+const CookbookIndex = ({ data, location }) => {
   const siteTitle = data.site.siteMetadata.title
   const posts = data.allMarkdownRemark.edges
 
@@ -21,22 +20,33 @@ const BlogIndex = ({ data, location }) => {
                 className="overflow-hidden rounded-lg shadow-lg"
                 key={node.fields.slug}
               >
-                <img
-                  className="w-full"
-                  src="/img/card-top.jpg"
-                  alt="Sunset in the mountains"
-                />
+                <Link
+                  to={node.fields.slug}
+                  className="w-full h-48 block bg-cover overflow-hidden"
+                  style={{
+                    backgroundImage: `url(${node.frontmatter.main_image.childImageSharp.fluid.src})`,
+                  }}
+                ></Link>
                 <div className="px-6 py-4">
-                  <div className="font-bold text-xl mb-2">
-                    <Link style={{ boxShadow: `none` }} to={node.fields.slug}>
+                  <div className="font-light text-gray-500 text-sm mb-2">
+                    {node.frontmatter.taxonomy
+                      ? node.frontmatter.taxonomy.category
+                      : ""}
+                  </div>
+                  <div className="font-bold text-2xl mb-2">
+                    <Link to={node.fields.slug} className="no-underline">
                       {title}
                     </Link>
                   </div>
                 </div>
-                <div className="px-6 py-4">
-                  <span className="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2">
-                    #photography
-                  </span>
+                <div className="px-6 py-4 pb-2">
+                  {node.frontmatter.taxonomy
+                    ? node.frontmatter.taxonomy.tag.map(tag => (
+                        <span className="inline-block bg-gray-200 rounded-full px-3 py-1 text-xs font-semibold text-gray-700 mr-2 mb-2">
+                          {tag}
+                        </span>
+                      ))
+                    : ""}
                 </div>
               </article>
             </div>
@@ -47,7 +57,7 @@ const BlogIndex = ({ data, location }) => {
   )
 }
 
-export default BlogIndex
+export default CookbookIndex
 
 export const pageQuery = graphql`
   query {
@@ -66,6 +76,17 @@ export const pageQuery = graphql`
           frontmatter {
             date(formatString: "MMMM DD, YYYY")
             title
+            taxonomy {
+              category
+              tag
+            }
+            main_image {
+              childImageSharp {
+                fluid(maxHeight: 400) {
+                  src
+                }
+              }
+            }
           }
         }
       }

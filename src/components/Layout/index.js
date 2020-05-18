@@ -7,7 +7,7 @@ const Layout = ({ children }) => {
   return (
     <div className="flex flex-col min-h-screen font-sans text-gray-900">
       <header>
-        <nav className="flex items-center justify-between flex-wrap bg-teal-500 p-6">
+        <nav className="flex items-center justify-between flex-wrap bg-blue-700 p-6">
           <Link
             to={`/`}
             className="flex items-center flex-shrink-0 text-white mr-6"
@@ -29,7 +29,7 @@ const Layout = ({ children }) => {
                 transform="translate(-172.19 -137.72)"
               />
             </svg>
-            <span className="font-light text-xl tracking-tight pl-3 border-l-1 border-white">
+            <span className="font-light text-xl tracking-tight pl-3 border-l border-white">
               Recipes
             </span>
           </Link>
@@ -38,9 +38,9 @@ const Layout = ({ children }) => {
       <main className="flex-1 w-full max-w-6xl px-4 py-8 mx-auto md:px-8 md:py-16">
         {children}
       </main>
-      <footer className="bg-blue-700">
-        <nav className="flex justify-between max-w-4xl p-4 mx-auto text-sm md:p-8">
-          <p className="text-white">
+      <footer>
+        <nav className="flex-1 w-full max-w-6xl px-4 py-8 mx-auto md:px-8 md:py-16">
+          <p>
             Created by{` `}
             <a
               className="font-bold no-underline"
@@ -54,7 +54,7 @@ const Layout = ({ children }) => {
 
           <p>
             <a
-              className="font-bold text-white no-underline"
+              className="font-bold no-underline"
               href="https://github.com/rubenrp/recipes"
               target="_blank"
               rel="noopener noreferrer"
