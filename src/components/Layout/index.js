@@ -35,11 +35,11 @@ const Layout = ({ children }) => {
           </Link>
         </nav>
       </header>
-      <main className="flex-1 w-full max-w-6xl px-4 py-8 mx-auto md:px-8 md:py-16">
+      <main className="flex flex-1 flex-col w-full max-w-6xl px-4 py-8 mx-auto md:px-8 md:py-16 justify-center items-center">
         {children}
       </main>
       <footer>
-        <nav className="flex-1 w-full max-w-6xl px-4 py-8 mx-auto md:px-8 md:py-16">
+        <div className="flex justify-between w-full max-w-6xl px-4 py-8 mx-auto md:px-8 md:py-8">
           <p>
             Created by{` `}
             <a
@@ -62,7 +62,7 @@ const Layout = ({ children }) => {
               GitHub
             </a>
           </p>
-        </nav>
+        </div>
       </footer>
     </div>
   )

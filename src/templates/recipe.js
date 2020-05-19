@@ -15,11 +15,8 @@ const RecipeTemplate = ({ data, pageContext, location }) => {
 
   return (
     <Layout location={location} title={siteTitle}>
-      <SEO
-        title={frontmatter.title}
-        description={recipe.excerpt}
-      />
-      <article>
+      <SEO title={frontmatter.title} description={recipe.excerpt} />
+      <article className="w-full">
         <header className="max-w-sm w-full lg:max-w-full mb-10">
           <div className="lg:flex overflow-hidden rounded-lg shadow-lg">
             <div
@@ -28,7 +25,7 @@ const RecipeTemplate = ({ data, pageContext, location }) => {
                 backgroundImage: `url(${mainImage})`,
               }}
             ></div>
-            <div className="bg-white p-5 flex flex-col justify-between leading-normal w-full">
+            <div className="bg-white px-6 py-2 flex flex-col justify-between leading-normal w-full">
               <h1 className="text-gray-900 font-bold text-4xl mb-2">
                 {recipe.frontmatter.title}
               </h1>
@@ -66,32 +63,52 @@ const RecipeTemplate = ({ data, pageContext, location }) => {
             </div>
           </div>
         </header>
-        <section
-          className="markdown"
-          dangerouslySetInnerHTML={{ __html: recipe.html }}
-        />
-        <hr />
-        <footer></footer>
+        <div className="flex mb-10">
+          <section className="lg:w-1/3 px-8 py-4 bg-blue-100">
+            <h3 className="text-gray-900 font-bold text-2xl mb-4">
+              Ingredients
+            </h3>
+            <ul className="list-disc pl-4">
+              {frontmatter.ingredients.map(ingredient => (
+                <li className="mb-2">{ingredient}</li>
+              ))}
+            </ul>
+          </section>
+          <section className="lg:w-2/3 ml-8">
+            <h2 className="text-gray-900 font-bold text-3xl mt-0">
+              Directions
+            </h2>
+            <hr className="mb-10" />
+            <div
+              className="markdown"
+              dangerouslySetInnerHTML={{ __html: recipe.html }}
+            />
+          </section>
+          <hr />
+        </div>
       </article>
 
-      <nav>
-        <ul>
-          <li>
-            {previous && (
-              <Link to={previous.fields.slug} rel="prev">
-                ← {previous.frontmatter.title}
-              </Link>
-            )}
-          </li>
-          <li>
-            {next && (
-              <Link to={next.fields.slug} rel="next">
-                {next.frontmatter.title} →
-              </Link>
-            )}
-          </li>
-        </ul>
-      </nav>
+      <div class="inline-flex">
+        {previous && (
+          <Link
+            to={previous.fields.slug}
+            rel="prev"
+            className="bg-gray-300 hover:bg-gray-400 text-gray-800 font-bold py-2 px-4 rounded-l"
+          >
+            ← {previous.frontmatter.title}
+          </Link>
+        )}
+
+        {next && (
+          <Link
+            to={next.fields.slug}
+            rel="next"
+            className="bg-gray-300 hover:bg-gray-400 text-gray-800 font-bold py-2 px-4 rounded-r"
+          >
+            {next.frontmatter.title} →
+          </Link>
+        )}
+      </div>
     </Layout>
   )
 }
