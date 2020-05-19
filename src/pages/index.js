@@ -10,7 +10,7 @@ const CookbookIndex = ({ data, location }) => {
 
   return (
     <Layout location={location} title={siteTitle}>
-      <SEO title="All posts" />
+      <SEO title="All Recipes" />
       <section class="flex flex-wrap -mx-1 lg:-mx-4">
         {posts.map(({ node }) => {
           const title = node.frontmatter.title || node.fields.slug
