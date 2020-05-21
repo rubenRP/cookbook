@@ -7,7 +7,7 @@ public_folder: assets
 
 collections:
   - name: recipes
-    label: recipes
+    label: Recipes
     folder: content/recipes
     path: "{{slug}}/index"
     media_folder: ""
@@ -35,5 +35,4 @@ collections:
       - { name: cooking_time, label: Cooking Time, required: false }
       - { name: source, label: Source, required: false }
       - { name: video, label: Video, required: false }
-
       - { name: body, label: Body, widget: markdown }
