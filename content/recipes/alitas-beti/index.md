@@ -20,7 +20,6 @@ ingredients:
   - "Salsa de soja"
   - "Aceite"
   - "Sal y pimienta"
-
 servings: 2
 cooking_time: "90m"
 ---

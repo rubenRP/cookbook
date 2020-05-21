@@ -73,5 +73,11 @@ module.exports = {
     `gatsby-plugin-react-helmet`,
     `gatsby-plugin-offline`,
     `gatsby-plugin-postcss`,
+    {
+      resolve: `gatsby-plugin-netlify-identity`,
+      options: {
+        url: `https://rubenr-cookbook.netlify.app/`
+      }
+    }
   ],
 }

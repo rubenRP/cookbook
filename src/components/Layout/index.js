@@ -1,9 +1,22 @@
 import React from "react"
 import { Link } from "gatsby"
+import IdentityModal, {
+  useIdentityContext,
+} from "react-netlify-identity-widget"
+import "react-netlify-identity-widget/styles.css"
 
 import "../../styles/index.css"
 
 const Layout = ({ children }) => {
+  const identity = useIdentityContext()
+  const [dialog, setDialog] = React.useState(false)
+  const name =
+    (identity &&
+      identity.user &&
+      identity.user.user_metadata &&
+      identity.user.user_metadata.name) ||
+    "NoName"
+    const isLoggedIn = identity && identity.isLoggedIn
   return (
     <div className="flex flex-col min-h-screen font-sans text-gray-900">
       <header>
@@ -33,11 +46,15 @@ const Layout = ({ children }) => {
               Cookbook
             </span>
           </Link>
+          <button className="btn" onClick={() => setDialog(true)}>
+          {isLoggedIn ? `Hello ${name}, Log out here!` : "LOG IN"}
+        </button>
         </nav>
       </header>
       <main className="flex flex-1 flex-col w-full max-w-6xl px-4 py-8 mx-auto md:px-8 md:py-16 justify-center items-center">
         {children}
       </main>
+      <IdentityModal showDialog={dialog} onCloseDialog={() => setDialog(false)} />
       <footer>
         <div className="flex justify-between w-full max-w-6xl px-4 py-8 mx-auto md:px-8 md:py-8">
           <p>
