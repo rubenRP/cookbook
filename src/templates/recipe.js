@@ -25,7 +25,7 @@ const RecipeTemplate = ({ data, pageContext, location }) => {
               style={{
                 backgroundImage: `url(${mainImage})`,
               }}
-            ></div>
+            />
             <div className="bg-white px-6 py-2 flex flex-col justify-between leading-normal w-full relative">
               <h1 className="text-gray-900 font-bold text-4xl mb-2">
                 {recipe.frontmatter.title}
@@ -33,7 +33,11 @@ const RecipeTemplate = ({ data, pageContext, location }) => {
 
               {frontmatter.source ? (
                 <div className="absolute top-0 right-0 p-2">
-                  <a href={frontmatter.source} target="_blank" className="text-blue-700">
+                  <a
+                    href={frontmatter.source}
+                    target="_blank"
+                    className="text-blue-700"
+                  >
                     <svg
                       x="0px"
                       y="0px"
@@ -100,7 +104,7 @@ const RecipeTemplate = ({ data, pageContext, location }) => {
         </div>
       </article>
 
-      <div class="inline-flex">
+      <div className="inline-flex">
         {previous && (
           <Link
             to={previous.fields.slug}

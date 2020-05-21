@@ -3,12 +3,12 @@ module.exports = {
     title: `Cookbook`,
     author: {
       name: `Rubén Rodríguez`,
-      summary: `who lives and works in San Francisco building useful things.`,
+      summary: `Madrid based developer.`,
     },
-    description: `A starter blog demonstrating what Gatsby can do.`,
-    siteUrl: `https://gatsby-starter-blog-demo.netlify.com/`,
+    description: `Cooking recipes to rock & roll.`,
+    siteUrl: `https://cookbook.rubenr.dev`,
     social: {
-      twitter: `kylemathews`,
+      twitter: `_rubenr`,
     },
   },
   plugins: [
@@ -51,12 +51,6 @@ module.exports = {
     },
     `gatsby-transformer-sharp`,
     `gatsby-plugin-sharp`,
-    //{
-      //resolve: `gatsby-plugin-google-analytics`,
-      //options: {
-        //trackingId: `ADD YOUR TRACKING ID HERE`,
-      //},
-    //},
     `gatsby-plugin-feed`,
     {
       resolve: `gatsby-plugin-manifest`,
@@ -73,11 +67,5 @@ module.exports = {
     `gatsby-plugin-react-helmet`,
     `gatsby-plugin-offline`,
     `gatsby-plugin-postcss`,
-    {
-      resolve: `gatsby-plugin-netlify-identity`,
-      options: {
-        url: `https://rubenr-cookbook.netlify.app/`
-      }
-    }
   ],
 }

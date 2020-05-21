@@ -3,7 +3,7 @@ import { Link } from "gatsby"
 
 const RecipeList = ({ recipes }) => {
   return (
-    <section class="flex flex-wrap -mx-1 lg:-mx-4 w-full">
+    <section className="flex flex-wrap -mx-1 lg:-mx-4 w-full">
       {recipes.map(({ node }) => {
         const title = node.frontmatter.title || node.fields.slug
         return (
@@ -18,9 +18,9 @@ const RecipeList = ({ recipes }) => {
                 style={{
                   backgroundImage: `url(${node.frontmatter.main_image.childImageSharp.fluid.src})`,
                 }}
-              ></Link>
+              />
               <div className="px-6 py-4">
-                <div className="font-light text-gray-500 text-sm mb-2">
+                <div className="font-light text-gray-500 text-sm">
                   {node.frontmatter.taxonomy
                     ? node.frontmatter.taxonomy.category
                     : ""}

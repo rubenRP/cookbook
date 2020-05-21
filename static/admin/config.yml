@@ -30,7 +30,12 @@ collections:
         fields:
           - { name: category, label: Category, required: false }
           - { name: tag, label: Tags, widget: "list", required: false }
-      - { name: ingredients, label: Ingredients, widget: "list", required: false }
+      - {
+          name: ingredients,
+          label: Ingredients,
+          widget: "list",
+          required: false,
+        }
       - { name: servings, label: Servings, required: false }
       - { name: cooking_time, label: Cooking Time, required: false }
       - { name: source, label: Source, required: false }
