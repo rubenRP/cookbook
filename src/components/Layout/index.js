@@ -30,7 +30,7 @@ const Layout = ({ children }) => {
               />
             </svg>
             <span className="font-light text-xl tracking-tight pl-3 border-l border-white">
-              Recipes
+              Cookbook
             </span>
           </Link>
         </nav>
@@ -55,7 +55,7 @@ const Layout = ({ children }) => {
           <p>
             <a
               className="font-bold no-underline"
-              href="https://github.com/rubenrp/recipes"
+              href="https://github.com/rubenrp/cookbook"
               target="_blank"
               rel="noopener noreferrer"
             >
