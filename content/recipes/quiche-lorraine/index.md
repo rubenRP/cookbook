@@ -13,7 +13,7 @@ taxonomy:
 ingredients:
   - "**Para la masa quebrada**"
   - "150 gr de harina"
-  - "150 gr de harina"
+  - "75 gr de mantequilla en trozos muy fría"
   - "40 gr de agua"
   - "½ cucharadita de sal"
   - "Molde de 26cm de diámetro"

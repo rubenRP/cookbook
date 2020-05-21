@@ -12,7 +12,7 @@ Cooking recipes app to rock & roll.
 
 ## Contributing
 
-If you see any typos or formatting errors in a post, or any other issue that needs to be addressed, please dot't hesitate to open a pull request and fix it!
+If you see any typos or formatting errors in code, or any other issue that needs to be addressed, please dot't hesitate to open a pull request and fix it!
 
 ## Author
 

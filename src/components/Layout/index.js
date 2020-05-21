@@ -9,7 +9,7 @@ const Layout = ({ children }) => {
       <header>
         <nav className="flex items-center justify-between flex-wrap bg-blue-700 p-6">
           <Link
-            to={`/`}
+            to="/"
             className="flex items-center flex-shrink-0 text-white mr-6"
           >
             <svg
@@ -41,7 +41,8 @@ const Layout = ({ children }) => {
       <footer>
         <div className="flex justify-between w-full max-w-6xl px-4 py-8 mx-auto md:px-8 md:py-8">
           <p>
-            Created by{` `}
+            Created by
+            {` `}
             <a
               className="font-bold no-underline"
               href="https://rubenr.dev"

@@ -25,7 +25,7 @@ const CookbookIndex = ({ data, location }) => {
     const filteredData = recipes.filter(recipe => {
       // destructure data from post frontmatter
       const { title, taxonomy } = recipe.node.frontmatter
-      const tags = taxonomy && taxonomy.tags
+      const tags = taxonomy && taxonomy.tag
       const category = taxonomy && taxonomy.category
 
       return (
@@ -59,7 +59,7 @@ const CookbookIndex = ({ data, location }) => {
             <input
               type="text"
               aria-label="Search"
-              placeholder="Type to filter posts..."
+              placeholder="Type to filter recipes..."
               onChange={handleInputChange}
               className="transition-colors duration-100 ease-in-out focus:outline-0 border focus:bg-white focus:border-gray-300 placeholder-gray-600 rounded-lg bg-gray-200 py-2 pr-4 pl-10 block w-full appearance-none leading-normal"
             />
