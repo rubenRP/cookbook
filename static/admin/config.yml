@@ -28,7 +28,7 @@ collections:
         label: Taxonomy
         widget: "object"
         fields:
-          - { name: category, label: Category, required: false }
+          - { name: category, label: Category, widget: "list", required: false }
           - { name: tag, label: Tags, widget: "list", required: false }
       - {
           name: ingredients,
@@ -36,7 +36,7 @@ collections:
           widget: "list",
           required: false,
         }
-      - { name: servings, label: Servings, required: false }
+      - { name: servings, label: Servings, widget: "number", required: false }
       - { name: cooking_time, label: Cooking Time, required: false }
       - { name: source, label: Source, required: false }
       - { name: video, label: Video, required: false }

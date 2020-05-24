@@ -4,22 +4,24 @@ date: 2020-05-24T10:49:00.474Z
 published: true
 main_image: bizcocho-de-yogur.jpg
 taxonomy:
-  category: Postres
+  category:
+    - Postres
   tag:
     - horno
     - postres
 ingredients:
-  - '"1 yogur de limón"'
-  - '"1 medida (con el vasito de yogur) de aceite de girasol"'
-  - '"2 medidas(con el vasito de yogur) de azúcar"'
-  - '"3 medidas (con el vasito de yogur) de harina"'
-  - '"3 huevos"'
-  - '"1 sobrecito (16g) de levadura en polvo o polvo de hornear"'
-  - '"Mantequilla o margarina para engrasar el molde"'
-servings: "8"
+  - "1 yogur de limón"
+  - "1 medida (con el vasito de yogur) de aceite de girasol"
+  - "2 medidas(con el vasito de yogur) de azúcar"
+  - "3 medidas (con el vasito de yogur) de harina"
+  - "3 huevos"
+  - "1 sobrecito (16g) de levadura en polvo o polvo de hornear"
+  - "Mantequilla o margarina para engrasar el molde"
+servings: 8
 cooking_time: 45m
 source: https://www.pequerecetas.com/receta/bizcocho-de-yogur/
 ---
+
 La base de esta receta es tomar como medida el vasito de yogur, lo que facilita mucho el tema de los ingredientes. Lo ideal es utilizar yogur de limón porque le da un sabor especial, pero en caso de no tener podríamos utilizar uno natural y poner ralladura de limón para añadirle algo de sabor al bizcocho.
 
 1. Precalentamos el horno a 180ºC.
