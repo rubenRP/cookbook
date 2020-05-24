@@ -2,7 +2,7 @@
 title: Albóndigas de berenjena con tomate
 date: "2020-05-18T22:12:03.284Z"
 published: true
-main_image: "Ensalada-de-quinoa-VC.jpg"
+main_image: "Albondigas-de-berenjena-1.jpg"
 taxonomy:
   category:
     - Verduras
@@ -31,7 +31,6 @@ servings: 6
 cooking_time: "60m"
 source: "https://www.velocidadcuchara.com/albondigas-de-berenjena-con-tomate/"
 ---
-
 
 1. **Para las albóndigas**: Pon 2 dientes de ajo en el vaso y pica 3 segundos en velocidad 7. Incorpora los 600 gr de berenjena en trozos -yo corto en rodajas de 2 dedos de ancho y estos en 4 trozos-, trocea 6 segundos en velocidad 4. Baja los restos de las paredes añade el aceite y sofríe 6 minutos, 120ºC o Varoma en velocidad 1.
 2. Incorpora el agua y programa otros 6 minutos, 100ºC, velocidad 1. Después trocea 3 segundos en velocidad 5 y vierte la mezcla en una fuente o un bol para que atempere. Deja reposar unos 20 minutos.

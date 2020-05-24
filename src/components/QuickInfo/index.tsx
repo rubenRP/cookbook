@@ -1,6 +1,14 @@
 import React from "react"
 
-const QuickInfo = ({ servings, cooking_time, category }) => {
+const QuickInfo = ({
+  servings,
+  cooking_time,
+  category,
+}: {
+  servings: number
+  cooking_time: string
+  category: string
+}) => {
   return (
     <div className="flex items-center content-between divide-x divide-gray-300">
       {servings ? (
@@ -113,7 +121,7 @@ C226.982,86.733,226.762,86.495,226.971,86.722L226.971,86.722z"
               </g>
             </g>
           </svg>
-          <div class="ml-4">
+          <div className="ml-4">
             <div className="text-sm text-gray-500">Cooking Time</div>
             <span>{cooking_time}</span>
           </div>
@@ -146,7 +154,7 @@ c29.499,0,52.795,10.614,63.902,29.093C352.638,114.905,350.779,140.019,336.337,16
               />
             </g>
           </svg>
-          <div class="ml-4">
+          <div className="ml-4">
             <div className="text-sm text-gray-500">Category</div>
             <span>{category}</span>
           </div>
