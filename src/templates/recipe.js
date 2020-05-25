@@ -74,21 +74,23 @@ const RecipeTemplate = ({ data, pageContext, location }) => {
           </div>
         </header>
         <div className="flex flex-col lg:flex-row mb-10">
-          <section className="w-full lg:w-1/3 px-8 py-4 bg-blue-100 mb-10 lg:mb-0">
-            <h3 className="text-gray-900 font-bold text-2xl mb-4">
-              Ingredients
-            </h3>
-            <ul className="list-disc pl-4">
-              {frontmatter.ingredients.map(ingredient =>
-                ingredient.includes("**") ? (
-                  <li className="mb-4 mt-5 -ml-4 font-bold list-none">
-                    {ingredient.split("**").join("")}
-                  </li>
-                ) : (
-                  <li className="mb-2">{ingredient}</li>
-                )
-              )}
-            </ul>
+          <section className="w-full lg:w-1/3 mb-10 lg:mb-0">
+            <div className="bg-gray-200 rounded-lg px-8 py-4 ">
+              <h3 className="text-gray-900 font-bold text-2xl mb-4">
+                Ingredients
+              </h3>
+              <ul className="list-disc pl-4">
+                {frontmatter.ingredients.map(ingredient =>
+                  ingredient.includes("**") ? (
+                    <li className="mb-4 mt-5 -ml-4 font-bold list-none">
+                      {ingredient.split("**").join("")}
+                    </li>
+                  ) : (
+                    <li className="mb-2">{ingredient}</li>
+                  )
+                )}
+              </ul>
+            </div>
           </section>
           <section className="w-full lg:w-2/3 lg:ml-8">
             <h2 className="text-gray-900 font-bold text-3xl mt-0">

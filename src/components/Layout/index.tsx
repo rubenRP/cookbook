@@ -7,7 +7,7 @@ const Layout = ({ children }: { children: React.ReactNode }) => {
   return (
     <div className="flex flex-col min-h-screen font-sans text-gray-900">
       <header>
-        <nav className="flex items-center justify-between flex-wrap bg-blue-700 p-6">
+        <nav className="flex items-center justify-between flex-wrap bg-gray-900 p-6">
           <Link
             to="/"
             className="flex items-center flex-shrink-0 text-white mr-6"
