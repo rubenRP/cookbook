@@ -1,8 +1,8 @@
 ---
 title: Alitas Beti
-date: "2020-05-18T22:12:03.284Z"
+date: 2020-05-18T22:12:03.284Z
 published: true
-main_image: "main-image.jpg"
+main_image: main-image.jpg
 taxonomy:
   category:
     - Pollo
@@ -10,18 +10,17 @@ taxonomy:
     - pollo
     - horno
 ingredients:
-  - "500gr alitas de pollo"
-  - "1/2 cebolla picada"
-  - "Ajo en polvo"
-  - "Chile en polvo"
-  - "Cayena"
-  - "Tabasco"
-  - "Salsa Perrins"
-  - "Salsa de soja"
-  - "Aceite"
-  - "Sal y pimienta"
+  - 500gr alitas de pollo
+  - 1/2 cebolla picada
+  - 1 cucharada de ajo en polvo
+  - 1/2 cucharada de cayena
+  - 2 cucharadas de tabasco
+  - 2 cucharadas de salsa Perrins
+  - 5 cucharadas de salsa de soja
+  - 4 cucharada de aceite
+  - Sal y pimienta
 servings: 2
-cooking_time: "90m"
+cooking_time: 90m
 ---
 
 1. Realizar un majado con todos los ingredientes y poner a macerar con el pollo durante 1h.
