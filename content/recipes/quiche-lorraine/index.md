@@ -1,8 +1,8 @@
 ---
 title: Quiché Lorraine
-date: "2020-05-18T22:12:03.284Z"
+date: 2020-05-18T22:12:03.284Z
 published: true
-main_image: "Quiche-Lorraine-VC.jpg"
+main_image: whatsapp-image-2020-05-31-at-20.09.47.jpeg
 taxonomy:
   category:
     - Primeros
@@ -12,24 +12,24 @@ taxonomy:
     - Thermomix
 ingredients:
   - "**Para la masa quebrada**"
-  - "150 gr de harina"
-  - "75 gr de mantequilla en trozos muy fría"
-  - "40 gr de agua"
-  - "½ cucharadita de sal"
-  - "Molde de 26cm de diámetro"
+  - 150 gr de harina
+  - 75 gr de mantequilla en trozos muy fría
+  - 40 gr de agua
+  - ½ cucharadita de sal
+  - Molde de 26cm de diámetro
   - "**Para el relleno de quiche**"
-  - "30 gr de mantequilla"
-  - "1 cucharada de aceite"
-  - "200 gr de bacon en tiras"
-  - "30 gr de harina o maicena"
-  - "250 gr de leche"
-  - "150 gr de queso rallado (rállalo en la TMX)"
-  - "4 huevos"
-  - "50 gr de nata líquida o leche evaporada"
-  - "Sal y pimienta al gusto"
+  - 30 gr de mantequilla
+  - 1 cucharada de aceite
+  - 200 gr de bacon en tiras
+  - 30 gr de harina o maicena
+  - 250 gr de leche
+  - 150 gr de queso rallado (rállalo en la TMX)
+  - 4 huevos
+  - 50 gr de nata líquida o leche evaporada
+  - Sal y pimienta al gusto
 servings: 6
-cooking_time: "44m"
-source: "https://www.velocidadcuchara.com/quiche-lorraine/"
+cooking_time: 44m
+source: https://www.velocidadcuchara.com/quiche-lorraine/
 ---
 
 1. **Para la masa quebrada**: Pon todos los ingredientes de la masa en el orden en el que aparecen y da unos golpes de turbo o mezcla 15 segundos en velocidad 6. Haz una bola y si la masa está muy blando mete en el frigo 10-15 minutos envuelta en film transparente.
