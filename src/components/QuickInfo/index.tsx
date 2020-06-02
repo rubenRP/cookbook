@@ -10,16 +10,16 @@ const QuickInfo = ({
   category: string
 }) => {
   return (
-    <div className="flex items-center content-between divide-x divide-gray-300">
+    <div className="flex items-center content-between divide-x divide-gray-300 w-2/3">
       {servings ? (
-        <div className="p-3 flex items-center justify-center w-full">
+        <div className="p-3 pl-0 flex items-center justify-center">
           <svg
             x="0px"
             y="0px"
             width="388.331px"
             height="388.33px"
             viewBox="0 0 388.331 388.33"
-            className="w-1/5 h-auto mb-2"
+            className="w-8 h-auto"
           >
             <g>
               <path
@@ -53,7 +53,7 @@ c-0.069,0.105-1.127-1.522-1.44-4.642C253.229,117.463,253.148,113.077,253.636,107
         ""
       )}
       {cooking_time ? (
-        <div className="p-3 flex items-center justify-center w-full">
+        <div className="p-3 flex items-center justify-center">
           <svg
             version="1.1"
             x="0px"
@@ -61,7 +61,7 @@ c-0.069,0.105-1.127-1.522-1.44-4.642C253.229,117.463,253.148,113.077,253.636,107
             width="375.028px"
             height="375.028px"
             viewBox="0 0 375.028 375.028"
-            className="w-1/4 h-auto mb-2"
+            className="w-10 h-auto"
           >
             <g>
               <g>

@@ -19,24 +19,22 @@ const RecipeTemplate = ({ data, pageContext, location }) => {
       <SEO title={frontmatter.title} description={recipe.excerpt} />
       <article className="w-full">
         <header className="w-full lg:max-w-full mb-10">
-          <div className="lg:flex overflow-hidden rounded-lg shadow-lg">
+          <div className="lg:flex overflow-hidden">
             <div
               className="h-48 lg:h-auto lg:w-1/3 flex-none bg-cover overflow-hidden"
               style={{
                 backgroundImage: `url(${mainImage})`,
               }}
             />
-            <div className="bg-white px-6 py-2 flex flex-col justify-between leading-normal w-full relative">
-              <h1 className="text-gray-900 font-bold text-4xl mb-2">
-                {recipe.frontmatter.title}
-              </h1>
+            <div className="bg-white px-6 flex flex-col justify-between leading-normal w-full relative">
+              <h1 className="font-bold text-xl">{recipe.frontmatter.title}</h1>
 
               {frontmatter.source ? (
                 <div className="absolute top-0 right-0 p-2">
                   <a
                     href={frontmatter.source}
                     target="_blank"
-                    className="text-blue-700"
+                    className="text-gray-900"
                   >
                     <svg
                       x="0px"
@@ -65,18 +63,37 @@ const RecipeTemplate = ({ data, pageContext, location }) => {
                 ""
               )}
 
-              <QuickInfo
-                servings={frontmatter.servings}
-                cooking_time={frontmatter.cooking_time}
-                category={category}
-              />
+              {category ? (
+                <div className="font-light text-gray-500 text-xs">
+                  {category}
+                </div>
+              ) : (
+                ""
+              )}
+
+              <div className="flex items-center justify-between border-t-2 border-gray-300 mt-3 pt-3">
+                <QuickInfo
+                  servings={frontmatter.servings}
+                  cooking_time={frontmatter.cooking_time}
+                />
+
+                <div className="py-3 flex flex-col">
+                  {frontmatter.taxonomy
+                    ? frontmatter.taxonomy.tag.map(tag => (
+                        <span className="inline-block font-light border border-gray-500 rounded px-1 py text-xs text-gray-700 text-center mb-2">
+                          {tag}
+                        </span>
+                      ))
+                    : ""}
+                </div>
+              </div>
             </div>
           </div>
         </header>
         <div className="flex flex-col lg:flex-row mb-10">
           <section className="w-full lg:w-1/3 mb-10 lg:mb-0">
-            <div className="bg-gray-200 rounded-lg px-8 py-4 ">
-              <h3 className="text-gray-900 font-bold text-2xl mb-4">
+            <div className="bg-gray-200 px-8 py-4 ">
+              <h3 className="font-bold text-l w-full py-2 mb-10 border-b-2 border-gray-300">
                 Ingredients
               </h3>
               <ul className="list-disc pl-4">
@@ -93,10 +110,9 @@ const RecipeTemplate = ({ data, pageContext, location }) => {
             </div>
           </section>
           <section className="w-full lg:w-2/3 lg:ml-8">
-            <h2 className="text-gray-900 font-bold text-3xl mt-0">
+            <h2 className="font-bold text-l w-full py-2 mt-4 mb-10 border-b-2 border-gray-300">
               Directions
             </h2>
-            <hr className="mb-10" />
             <div
               className="markdown"
               dangerouslySetInnerHTML={{ __html: recipe.html }}

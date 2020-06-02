@@ -58,10 +58,13 @@
       width: var(--size);
       height: var(--size);
       top: 0;
-      background: #2b6cb0;
       color: #ffffff;
       border-radius: 50%;
       text-align: center;
+      @apply bg-gray-900;
     }
+  }
+  & ul {
+    @apply list-disc;
   }
 }
