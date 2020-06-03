@@ -18,7 +18,7 @@ const RecipeTemplate = ({ data, pageContext, location }) => {
     <Layout location={location} title={siteTitle}>
       <SEO title={frontmatter.title} description={recipe.excerpt} />
       <article className="w-full">
-        <header className="w-full lg:max-w-full mb-10">
+        <header className="w-full lg:max-w-full mb-4 lg:mb-10">
           <div className="lg:flex overflow-hidden">
             <div
               className="h-48 lg:h-auto lg:w-1/3 flex-none bg-cover overflow-hidden"
@@ -26,7 +26,7 @@ const RecipeTemplate = ({ data, pageContext, location }) => {
                 backgroundImage: `url(${mainImage})`,
               }}
             />
-            <div className="bg-white px-6 flex flex-col justify-between leading-normal w-full relative">
+            <div className="bg-white mt-6 lg:mt-0 lg:px-6 flex flex-col justify-between leading-normal w-full relative">
               <h1 className="font-bold text-xl">{recipe.frontmatter.title}</h1>
 
               {frontmatter.source ? (
@@ -91,7 +91,7 @@ const RecipeTemplate = ({ data, pageContext, location }) => {
           </div>
         </header>
         <div className="flex flex-col lg:flex-row mb-10">
-          <section className="w-full lg:w-1/3 mb-10 lg:mb-0">
+          <section className="w-full lg:w-1/3 mb-4 lg:mb-0">
             <div className="bg-gray-200 px-8 py-4 ">
               <h3 className="font-bold text-l w-full py-2 mb-10 border-b-2 border-gray-300">
                 Ingredients
