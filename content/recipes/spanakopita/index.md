@@ -37,3 +37,4 @@ source: https://elcomidista.elpais.com/elcomidista/2011/11/10/articulo/132090480
 
 * Poner el horno en calor abajo para que no se queme.
 * Los ultimos 15 minitos se pueden hacer con el horno apagado para evitar que se queme la pasta filo.
+* Se pueden utilizar los moldes de pollo al horno de Mercadona.
