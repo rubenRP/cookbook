@@ -20,7 +20,7 @@ ingredients:
   - 10g queso parmesano rallado
   - 50 g queso feta
   - 3 cucharadas de pesto de albahaca
-servings: ""
+servings: 2
 cooking_time: 40m
 video: https://www.youtube.com/watch?v=eaG2SWxH2jg&index=1&list=FLOwxi_cXTWdNgRt3D0YMn5g
 ---
