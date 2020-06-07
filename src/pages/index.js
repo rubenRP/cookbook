@@ -49,6 +49,15 @@ const CookbookIndex = ({ data, location }) => {
   const hasSearchResults = filteredData && query !== emptyQuery
   const recipes = hasSearchResults ? filteredData : allRecipes
 
+  let tags = [
+    ...recipes.map(recipe => {
+      return recipe.node.frontmatter.taxonomy.tag
+    }),
+  ]
+
+  tags = [].concat.apply([], tags).map(v => v.toLowerCase())
+  const tagList = [...new Set(tags)]
+
   return (
     <Layout location={location} title={siteTitle}>
       <SEO title="All Recipes" />
@@ -72,6 +81,13 @@ const CookbookIndex = ({ data, location }) => {
                 <path d="M12.9 14.32a8 8 0 1 1 1.41-1.41l5.35 5.33-1.42 1.42-5.33-5.34zM8 14A6 6 0 1 0 8 2a6 6 0 0 0 0 12z"></path>
               </svg>
             </div>
+          </div>
+          <div className="mt-4">
+            {tagList.slice(0, 5).map(tag => (
+              <span className="inline-block font-light border border-gray-500 rounded px-1 py text-xs text-gray-700 text-center mb-2 mr-2">
+                {tag}
+              </span>
+            ))}
           </div>
         </div>
       </div>
