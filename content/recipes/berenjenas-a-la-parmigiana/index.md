@@ -5,7 +5,7 @@ published: true
 main_image: zoom-2b7628bef65397e8c17ecd6f0808a6b9-920-518.jpg
 taxonomy:
   category:
-    - Comida italiana
+    - Cocina Italiana
   tag:
     - horno
     - comida internacional
