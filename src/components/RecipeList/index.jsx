@@ -14,7 +14,7 @@ const RecipeList = ({ recipes }) => {
             <article className="overflow-hidden" key={node.fields.slug}>
               <Link
                 to={node.fields.slug}
-                className="w-full h-48 block bg-cover overflow-hidden"
+                className="w-full h-48 block bg-cover bg-center overflow-hidden"
                 style={{
                   backgroundImage: `url(${node.frontmatter.main_image.childImageSharp.fluid.src})`,
                 }}

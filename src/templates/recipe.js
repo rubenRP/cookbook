@@ -21,7 +21,7 @@ const RecipeTemplate = ({ data, pageContext, location }) => {
         <header className="w-full lg:max-w-full mb-4 lg:mb-10">
           <div className="lg:flex overflow-hidden">
             <div
-              className="h-48 lg:h-auto lg:w-1/3 flex-none bg-cover overflow-hidden"
+              className="h-48 lg:h-auto lg:w-1/3 flex-none bg-cover bg-center overflow-hidden"
               style={{
                 backgroundImage: `url(${mainImage})`,
               }}
