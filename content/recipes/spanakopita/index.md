@@ -5,10 +5,10 @@ published: true
 main_image: spanakopita.jpg
 taxonomy:
   category:
-    - Comida internacional
+    - Cocina Griega
   tag:
     - Horno
-    - cocina griega
+    - cocina internacional
     - entrantes
 ingredients:
   - 400 gr de espinacas
