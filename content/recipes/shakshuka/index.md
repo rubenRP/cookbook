@@ -5,7 +5,7 @@ published: true
 main_image: shakshuka.jpg
 taxonomy:
   category:
-    - Comida oriental
+    - Cocina Oriental
   tag:
     - cenas
     - comida internacional
