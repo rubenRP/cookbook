@@ -1,28 +1,27 @@
 ---
 title: Contramuslos de pollo al Oriente Medio
-date: "2020-05-18T22:12:03.284Z"
+date: 2020-05-18T22:12:03.284Z
 published: true
-main_image: "main-image.jpg"
+main_image: main-image.jpg
 taxonomy:
   category:
-    - Primeros
+    - Cocina Oriental
   tag:
-    - internacional
+    - cocina internacional
     - plato único
 ingredients:
-  - "6 contramuslos de pollo deshuesado"
-  - "3 dientes de ajo prensados"
-  - "60ml de aceite de oliva"
-  - "2 limones"
-  - "30ml Zataar o mezcla casera"
-  - "250g de yogur griego"
-  - "200gr cuscus"
-  - "Tomillo seco"
-  - "Sal y pimiento"
-
+  - 6 contramuslos de pollo deshuesado
+  - 3 dientes de ajo prensados
+  - 60ml de aceite de oliva
+  - 2 limones
+  - 30ml Zataar o mezcla casera
+  - 250g de yogur griego
+  - 200gr cuscus
+  - Tomillo seco
+  - Sal y pimiento
 servings: 4
-cooking_time: "50m"
-source: "https://www.directoalpaladar.com/recetas-de-carnes-y-aves/contramuslos-de-pollo-al-aroma-de-oriente-medio-receta-sabrosisima-y-facil"
+cooking_time: 50m
+source: https://www.directoalpaladar.com/recetas-de-carnes-y-aves/contramuslos-de-pollo-al-aroma-de-oriente-medio-receta-sabrosisima-y-facil
 ---
 
 1. Secar los contramuslos de pollo con papel de cocina y retirar los posibles excesos de grasa. Si son piezas muy grandes, cortar en dos. Disponer en una fuente o plato hondo y mezclar con 45 ml de aceite de oliva virgen extra, la ralladura y el zumo del limón y los ajos prensados, reservando un poco de ajo para el yogur.
