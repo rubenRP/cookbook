@@ -39,6 +39,8 @@ source: https://www.velocidadcuchara.com/quiche-lorraine/
 
 ### Notas
 
+- **Para que no se queme la quiche poner el horno solo con calor abajo.**
+
 - **Cambios en tus quiche**: usa taquitos de jamón serrano, chorizo, bacon, morcilla y otros embutidos, sobrasada... Queda y dan mucho más sabor si los sofríes ligeramente. Usa restos de tus carnes para convertir tu quiche en una receta de aprovechamiento, pollo asado, restos de cocido, etc... pon las carnes ya cocinadas y echa especias y queso para aportar más sabor. Cocina tu receta con salmón, gambas, bacalao y otros pescados, mariscos, etc... Tira de latas, de espárragos, de atún, mejillones, berberechos y todo lo que se te ocurra.
 - **Quiches con verduras**: recuerda cocinarlas un poquitín antes porque en el horno solo se van a cuajar, ya sea cocidas o rehogadas. Calabacín, champiñones, tomates, acelgas, espinacas, puerros, espárragos, berenjenas, brocolí, alcachofas,
 - **Las grasas**: puedes usar 40 gr de aceite de oliva virgen extra, o mantequilla o una mezcla de ambas. También puedes usar leche entera o semi y nata o en su lugar para bajar calorías leche evaporada. Utiliza la variedad de quesos que más te guste, le dan un toque delicioso.
