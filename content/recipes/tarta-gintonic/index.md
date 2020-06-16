@@ -18,8 +18,8 @@ ingredients:
   - 1 sobre y medio de gelatina de limón (120 gr de gelatina de limón Royal)
   - 150 g de zumo de limones
   - 370 g de leche condensada
-  - 400 g de nata para montar 35
-  - 1% m.g. **Para la cobertura de Gin Tonic**
+  - 400 g de nata para montar 35.1% m.g.
+  - "**Para la cobertura de Gin Tonic**"
   - 8 hojas de gelatina
   - 100 g de agua
   - 150 g de azúcar
