@@ -12,7 +12,7 @@ taxonomy:
     - plato único
 ingredients:
   - "**Noodles**"
-  - 250 gr de noodles de huevo
+  - 300 gr de noodles de huevo
   - 120 gr de cebolla tierna
   - 120 gr de pak choy
   - 120gr de zanahoria
