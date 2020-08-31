@@ -1,5 +1,5 @@
 ---
-title: Cavatappi Chicken Pasta (FH style)
+title: Curry rojo de pollo y verduras
 date: "2020-08-31T22:12:03.284Z"
 description: "Hello World"
 published: true
