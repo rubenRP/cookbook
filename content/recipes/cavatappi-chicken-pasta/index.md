@@ -1,9 +1,8 @@
 ---
 title: Curry de berenjena, tomate y espinacas
-date: "2020-08-31T22:12:03.284Z"
-description: "Hello World"
+date: 2020-08-31T22:12:03.284Z
 published: true
-main_image: "placeholder.jpg"
+main_image: daefdf73-c9da-4a86-b95b-37747a3c1474.jpeg
 taxonomy:
   category:
     - Cocina india
@@ -27,8 +26,9 @@ ingredients:
   - 300 ml de caldo de verduras
   - aceite de oliva y sal.
 servings: 4
-cooking_time: "60m"
-source: "https://www.directoalpaladar.com/recetas-vegetarianas/curry-de-berenjena-tomate-y-espinacas-receta-vegetariana"
+cooking_time: 60m
+source: https://www.directoalpaladar.com/recetas-vegetarianas/curry-de-berenjena-tomate-y-espinacas-receta-vegetariana
+description: Hello World
 ---
 
 1. Trituramos en un robot de cocina la cebolla, pelada y troceada, los dientes de ajo, pelados, el jengibre fresco, también pelado, la guindilla de cayena, sin las semillas (que es lo que pica), el comino, el garam masala, el cilantro, la cúrcuma, el tomate concentrado y el aceite de girasol. Cuando tengamos una pasta homogénea y sin restos ni tropezones de ningún ingrediente, paramos y reservamos.
