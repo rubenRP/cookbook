@@ -2,7 +2,7 @@
 title: Pan casero
 date: 2020-08-31T22:12:03.284Z
 published: true
-main_image: placeholder.jpg
+main_image: pan_casero.jpg
 taxonomy:
   category:
     - Pan
@@ -15,8 +15,8 @@ ingredients:
   - 150-200gr masa madre
 servings: 2
 cooking_time: 4h
-source: "http://www.lasrecetasdemj.com/2012/11/the-mj-cooking-show-hoy-cocino-con.html"
-video: "https://www.youtube.com/watch?v=xv8xuX__Gn4&t=1284s"
+source: http://www.lasrecetasdemj.com/2012/11/the-mj-cooking-show-hoy-cocino-con.html
+video: https://www.youtube.com/watch?v=xv8xuX__Gn4&t=1284s
 ---
 
 1. Fresado + amasado
