@@ -21,7 +21,7 @@ ingredients:
   - 650 g de caldo de verdura muy caliente
   - 1 cucharadita de sal
   - 10 g de mantequilla con sal
-  - Opcional: una pizca de pimienta negra molida
+  - Una pizca de pimienta negra molida
 servings: 4
 cooking_time: "40m"
 source: "https://www.velocidadcuchara.com/risotto-con-setas/"
