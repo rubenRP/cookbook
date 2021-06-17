@@ -1,23 +1,27 @@
-# 🍽️ Cookbook
+# Vue 3 + Typescript + Vite
 
-[![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](https://opensource.org/licenses/MIT) [![Netlify Status](https://api.netlify.com/api/v1/badges/45a67dcc-9b46-47ec-816a-70d5cdbcc3e0/deploy-status)](https://app.netlify.com/sites/rubenr-cookbook/deploys)
+This template should help get you started developing with Vue 3 and Typescript in Vite.
 
-Cooking recipes app to rock & roll.
+## Recommended IDE Setup
 
-## Features
+[VSCode](https://code.visualstudio.com/) + [Vetur](https://marketplace.visualstudio.com/items?itemName=octref.vetur). Make sure to enable `vetur.experimental.templateInterpolationService` in settings!
 
-- Countdown and easy copy
-- Tags and categories
-- Tailwind Integration
+### If Using `<script setup>`
 
-## Contributing
+[`<script setup>`](https://github.com/vuejs/rfcs/pull/227) is a feature that is currently in RFC stage. To get proper IDE support for the syntax, use [Volar](https://marketplace.visualstudio.com/items?itemName=johnsoncodehk.volar) instead of Vetur (and disable Vetur).
 
-If you see any typos or formatting errors in code, or any other issue that needs to be addressed, please dot't hesitate to open a pull request and fix it!
+## Type Support For `.vue` Imports in TS
 
-## Author
+Since TypeScript cannot handle type information for `.vue` imports, they are shimmed to be a generic Vue component type by default. In most cases this is fine if you don't really care about component prop types outside of templates. However, if you wish to get actual prop types in `.vue` imports (for example to get props validation when using manual `h(...)` calls), you can use the following:
 
-[Rubén Rodríguez](https://www.rubenr.dev)
+### If Using Volar
 
-## License
+Run `Volar: Switch TS Plugin on/off` from VSCode command palette.
 
-This project is open source and available under the [MIT License](LICENSE).
+### If Using Vetur
+
+1. Install and add `@vuedx/typescript-plugin-vue` to the [plugins section](https://www.typescriptlang.org/tsconfig#plugins) in `tsconfig.json`
+2. Delete `src/shims-vue.d.ts` as it is no longer needed to provide module info to Typescript
+3. Open `src/main.ts` in VSCode
+4. Open the VSCode command palette
+5. Search and run "Select TypeScript version" -> "Use workspace version"
